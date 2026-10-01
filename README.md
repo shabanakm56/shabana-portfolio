@@ -3,7 +3,7 @@
 Personal portfolio for Shabana: web development and data analytics projects, skills, education and contact details.
 
 ## Stack
-Next.js 14 (App Router), Tailwind CSS 3, React 18. No API keys or environment variables.
+Next.js 16 (App Router), React 19, Tailwind CSS 3. No API keys or environment variables.
 
 ## Run locally
 ```bash
