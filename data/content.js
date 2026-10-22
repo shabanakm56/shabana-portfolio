@@ -1,12 +1,13 @@
 // Edit this file to update the whole site.
 export const profile = {
   name: "Shabana",
-  title: "Software Engineer & Data Analyst",
+  title: "Software Engineer | Front-End, QA Automation & Data",
   tagline:
-    "I build responsive web and mobile applications with Django and MySQL, and turn raw data into dashboards that show what to act on.",
+    "I build responsive web interfaces, automate the tests that keep software reliable, and turn data into decisions.",
   about: [
     "I am a Computer Science Engineering graduate (B.Tech, KMCT College of Engineering) who builds end to end: a clean front end in HTML, CSS and JavaScript, Python and Django behind it, and MySQL underneath.",
-    "I also work with data. I clean it in Python and SQL, and report it in Power BI. I debug and test as I build, and I work in Git-based teams.",
+    "I care about reliability. I design test cases, automate them with Selenium and pytest, and verify behaviour across browsers with BrowserStack and Selenium Grid.",
+    "I also turn raw data into decisions. I clean it in Python and SQL and report it in Power BI. In one retail analysis, that surfaced a clear finding: discounts above 40% push margins negative.",
   ],
   location: "Malappuram, Kerala, India",
   email: "shabanakm56@gmail.com",
@@ -17,6 +18,24 @@ export const profile = {
 
 export const projects = [
   {
+    name: "EVESTA: Location-Based Event Recommendation And Discovery Platform using AI",
+    stack: ["Django", "MySQL","Flutter", "Android Studio"],
+    problem: "People find it hard to discover events happening near them.",
+    solution: "An AI-based platform that recommends nearby events from the user's location, with a user-friendly interface.",
+    contribution: "Designed and built as a team: recommendation logic, UI, and real-time data handling with performance optimization.",
+    outcome: "Delivered as a working final-year team project.",
+  },
+  
+   {
+    name: "QA Test Automation (Codecraft Infotech)",
+    stack: ["Python", "Selenium", "pytest", "BrowserStack"],
+    problem: "Web applications need to work reliably across browsers, and login flows need repeatable checks.",
+    solution: "Wrote test cases for a calculator app, tested a web application on Chrome, Firefox, Edge and Safari, built an automated login suite, and ran cross-browser tests on BrowserStack with Selenium Grid.",
+    contribution: "Wrote the test cases and automation and documented the results at Codecraft Infotech (Sep to Oct 2026).",
+    outcome: "All 10 automated login tests passing, with results documented in public GitHub repositories.",
+  },
+
+  {
     name: "Retail Sales Performance Analysis",
     stack: ["Python", "SQL", "MySQL", "Power BI"],
     problem: "Retail sales data needed to be checked and turned into something a team could read and act on.",
@@ -25,14 +44,7 @@ export const projects = [
     outcome: "Found that discounts above 40% lead to negative profit margins.",
     featured: true,
   },
-  {
-    name: "Evesta: Location-Based Event Discovery",
-    stack: ["Django", "MySQL", "Android Studio"],
-    problem: "People find it hard to discover events happening near them.",
-    solution: "An AI-based platform that recommends nearby events from the user's location, with a user-friendly interface.",
-    contribution: "Designed and built as a team: recommendation logic, UI, and real-time data handling with performance optimization.",
-    outcome: "Delivered as a working final-year team project.",
-  },
+
   {
     name: "SAP Tracker: Student Assessment & Performance Tracker",
     stack: ["Python", "MySQL", "Android Studio"],
@@ -41,11 +53,22 @@ export const projects = [
     contribution: "Developed the application.",
     outcome: "Research published in IRJMETS (March 2025).",
   },
+  
+  {
+    name: "Personal Portfolio Website",
+    stack: ["Next.js", "React", "Tailwind CSS", "Vercel"],
+    problem: "Projects across development, QA and data needed one place where a recruiter can see them quickly.",
+    solution: "A responsive portfolio site with all content managed from a single data file.",
+    contribution: "Designed, built and deployed the site.",
+    outcome: "Live at shabana-portfolio-ten.vercel.app.",
+    live: "https://shabana-portfolio-ten.vercel.app",
+  },
 ];
 
 export const skills = {
-  "Web Development": ["HTML5", "CSS3", "JavaScript", "Responsive Web Design", "REST APIs"],
-  "Backend & Data": ["Python", "Django", "SQL", "MySQL", "Power BI", "Excel"],
+  "Web & Mobile Development": ["HTML5", "CSS3", "JavaScript", "React", "Next.js", "Flutter", "Responsive Web Design", "REST APIs"],
+  "Back-End & Data": ["Python", "Django", "SQL", "MySQL", "Power BI", "Excel"],
+  "QA & Test Automation": ["Selenium", "pytest", "BrowserStack", "Test Case Design", "Cross-Browser Testing"],
   "Tools": ["Git", "GitHub", "VS Code", "Android Studio"],
 };
 
