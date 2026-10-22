@@ -26,7 +26,7 @@ export const projects = [
     outcome: "Delivered as a working final-year team project.",
   },
   
-   {
+  {
     name: "QA Test Automation (Codecraft Infotech)",
     stack: ["Python", "Selenium", "pytest", "BrowserStack"],
     problem: "Web applications need to work reliably across browsers, and login flows need repeatable checks.",
@@ -53,7 +53,7 @@ export const projects = [
     contribution: "Developed the application.",
     outcome: "Research published in IRJMETS (March 2025).",
   },
-  
+
   {
     name: "Personal Portfolio Website",
     stack: ["Next.js", "React", "Tailwind CSS", "Vercel"],
