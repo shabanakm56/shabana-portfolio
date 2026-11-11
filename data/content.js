@@ -6,7 +6,7 @@ export const profile = {
   "I build responsive web interfaces, automate the tests that keep software reliable, turn data into decisions, and build LLM-powered tools.",
   
   about: [
-    "I am a Computer Science Engineering graduate  who builds end to end: a clean front end in HTML, CSS and JavaScript, Python and Django behind it, and MySQL underneath.",
+    "I am a Computer Science Engineering graduate who builds end to end: a clean front end in HTML, CSS and JavaScript, Python and Django behind it, and MySQL underneath.",
     "I care about reliability. I design test cases, automate them with Selenium and pytest, and verify behaviour across browsers with BrowserStack and Selenium Grid.",
     "I also turn raw data into decisions. I clean it in Python and SQL and report it in Power BI. In one retail analysis, that surfaced a clear finding: discounts above 40% push margins negative.",
     "I have also built an LLM agent in Python that uses tool calling to analyze job descriptions against my skills and return structured JSON.",
@@ -82,7 +82,7 @@ export const skills = {
   "Back-End & Data": ["Python", "Django", "SQL", "MySQL", "Power BI", "Excel"],
   "QA & Test Automation": ["Selenium", "pytest", "BrowserStack", "Test Case Design", "Cross-Browser Testing"],
   "AI & LLM": ["LLM Tool Calling", "Prompt Engineering", "Gemini API", "Structured JSON Output"],
-  "Tools": ["Git", "GitHub", "VS Code", "Android Studio","Vercel"],
+  "Tools": ["Git", "GitHub", "VS Code", "Android Studio", "Vercel"],
 };
 
 export const education = [
@@ -95,4 +95,4 @@ export const certifications = [
 
   { title: "GenAI Powered Data Analytics Job Simulation", place: "Tata (Forage)", when: "Jun 2026" },
   { title: "Cyber Security and Ethical Hacking", place: "Metaloop Global IT Services", when: "Jun 2025" },
-]
+];
