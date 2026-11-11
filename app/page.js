@@ -43,9 +43,10 @@ export default function Home() {
             <ul>{education.map((e) => <Entry key={e.title} e={e} />)}</ul>
             <ul>{certifications.map((e) => <Entry key={e.title} e={e} />)}</ul>
           </div>
+          
         </Section>
         <Section id="contact" title="Contact">
-          <p className="mb-5 max-w-lg text-muted">Open to QA automation, data analytics, web development and AI roles. The fastest way to reach me is email or phone.</p>
+          <p className="mb-5 max-w-lg text-muted">Open to QA automation, web development, AI roles And data analytics. The fastest way to reach me is email or phone.</p>
           <ul className="space-y-2">
             <li><a className="text-brand underline underline-offset-4" href={`mailto:${profile.email}`}>{profile.email}</a></li>
             <li><a className="hover:text-brand" href={`tel:${profile.phone.replace(/\s/g, "")}`}>{profile.phone}</a></li>
